@@ -1,6 +1,6 @@
-// RankForge вЂ” full persistence layer.
+// RankForge — full persistence layer.
 // Default: SQLite (zero-setup, file ./prisma/dev.db). For production Postgres,
-// change provider to "postgresql" and set DATABASE_URL вЂ” models are compatible.
+// change provider to "postgresql" and set DATABASE_URL — models are compatible.
 
 generator client {
   provider = "prisma-client"
